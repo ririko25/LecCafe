@@ -1,33 +1,86 @@
-li{
-  list-style:none;
-}
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif; }
+
+li {
+  list-style: none; }
+
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 0 15px;
+  width: 350px;
+  min-width: 115px;
+  height: 60px;
+  color: #F6F6F6;
+  line-height: 50px;
+  text-align: center;
+  background: #B01D34;
+  border-radius: 60px;
+  z-index: 0;
+  font-size: 20px;
+  max-width: 50%;
+  margin: 0 auto; }
+
+.title {
+  color: #434343;
+  font-size: 30px;
+  text-align: center; }
+
+.subtitle {
+  color: #434343;
+  font-size: 16px;
+  text-align: center; }
+
+.text {
+  color: #434343;
+  font-size: 15px;
+  text-align: center; }
+
+.header {
+  color: #fff; }
+  .header .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px; }
+  .header .header-list {
+    float: left; }
+  .header .list li {
+    float: left;
+    padding: 33px 20px; }
 
 .top {
   padding: 180px 0 400px 0;
-  background-image: url("../img/top_bg.jpg");
+  background-image: url(../img/top_bg.jpg);
   background-size: cover;
-color:#fff;
-  text-align: center;
- font-family:YuGothic;
-}
-.header-logo {
-  float: left;
-  font-size: 36px;
-  padding: 20px 40px;
-}
+  color: white;
+  text-align: center; }
 
-.header-list {
-  float: left;
-}
+.youcando {
+  background-color: #e6e6e6; }
 
-.header-logo {
-  background-size: cover;
-  color:#fff;
-}
+.hellowelcome {
+  background-color: #d6d6d6; }
 
+.history {
+  background-color: #b9b9b9; }
 
-.header-list li {
-  float: left;
-  padding: 33px 20px;
+.request {
+  text-align: center; }
+
+.footer {
+  background-color: #817B7B;
+  height: 440px;
+  width: 1923px; }
+
+.footer_title {
+  font-size: 25px;
   color: #fff;
-}
+  text-align: center;
+  padding-top: 65px; }
+
+.chatbox_banner {
+  padding-top: 45px;
+  height: 150ox;
+  width: 380px;
+  max-width: 50%;
+  margin: 0 auto; }
