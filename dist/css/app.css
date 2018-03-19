@@ -1,0 +1,33 @@
+li{
+  list-style:none;
+}
+
+.top {
+  padding: 180px 0 400px 0;
+  background-image: url("../img/top_bg.jpg");
+  background-size: cover;
+color:#fff;
+  text-align: center;
+ font-family:YuGothic;
+}
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list {
+  float: left;
+}
+
+.header-logo {
+  background-size: cover;
+  color:#fff;
+}
+
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+  color: #fff;
+}
