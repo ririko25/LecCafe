@@ -21,5 +21,5 @@ gulp.task("scss", () => {
 //ファイル変更の監視
 
 gulp.task('watch', function () {
-    gulp.watch('./src/scss/*.scss', ["scss"]);
+    gulp.watch('./src/sass/**/*.scss', ["scss"]);
 })
