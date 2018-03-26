@@ -19,21 +19,6 @@ li {
   z-index: 0;
   font-size: 20px; }
 
-.title {
-  color: #434343;
-  font-size: 30px;
-  text-align: center; }
-
-.subtitle {
-  color: #434343;
-  font-size: 16px;
-  text-align: center; }
-
-.text {
-  color: #434343;
-  font-size: 15px;
-  text-align: center; }
-
 .header {
   color: #fff;
   height: 924px;
@@ -45,7 +30,6 @@ li {
   padding: 20px 40px; }
 
 ul {
-  display: -webkit-flex;
   display: flex;
   -webkit-justify-content: space-around;
   justify-content: space-around; }
@@ -93,28 +77,9 @@ ul {
     right: 0;
     margin: auto; }
 
-.history {
-  height: 1014ox;
-  width: 1920px; }
-
-.voice {
-  width: 1930px;
-  background-image: url(../img/voice_bg.jpg);
-  background-size: contain;
-  color: white;
-  text-align: center; }
-
 .instructor {
   height: 955px;
   width: 1920px; }
-
-.access {
-  width: 1930px;
-  padding: 180px 0 400px 0;
-  background-image: url(../img/accses.jpg);
-  background-size: contain;
-  color: white;
-  text-align: center; }
 
 .request {
   height: 1097px;
@@ -147,6 +112,22 @@ ul {
   background-size: cover;
   color: white;
   text-align: center; }
+  .hellowelcome .title {
+    color: #434343;
+    font-size: 30px;
+    text-align: center; }
+  .hellowelcome .subtitle {
+    color: #434343;
+    font-size: 16px;
+    text-align: center; }
+  .hellowelcome .history_title {
+    padding: 80px 0px 50px 0px; }
+  .hellowelcome .text {
+    color: #434343;
+    font-size: 15px;
+    text-align: center; }
+  .hellowelcome .hello_title_text {
+    padding: 41px 0px 68px 0px; }
   .hellowelcome .hello_welcome_section {
     display: inline-block;
     padding-top: 40px; }
@@ -176,3 +157,253 @@ ul {
 .point_03 .point_03_subtitle {
   font-size: 24px;
   color: #594441; }
+
+.history {
+  height: 1014px;
+  width: 1920px;
+  background-color: #F6F6F6; }
+  .history .section {
+    width: 300px;
+    height: 230px;
+    background: #fff;
+    text-align: center;
+    margin: 0px 38px 60px 0px; }
+  .history .button_center {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .history .button {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.history_section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.history_section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.title {
+  color: #434343;
+  font-size: 30px;
+  text-align: center; }
+
+.subtitle {
+  color: #434343;
+  font-size: 16px;
+  text-align: center; }
+
+.history_title {
+  padding: 80px 0px 50px 0px; }
+
+.voice {
+  width: 1930px;
+  height: 871px;
+  background-image: url(../img/voice_bg.jpg);
+  background-size: contain;
+  color: white;
+  text-align: center; }
+  .voice .title {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center; }
+  .voice .subtitle {
+    color: #fff;
+    font-size: 16px;
+    text-align: center; }
+  .voice .text {
+    color: #fff;
+    font-size: 15px;
+    text-align: center; }
+  .voice .voice_title {
+    padding: 80px 0px 50px 0px; }
+  .voice .voice_title_text {
+    padding: 41px 0px 68px 0px; }
+  .voice .comment {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .voice .comment_1 {
+    position: relative;
+    margin: 0px 53px 0px 0px; }
+  .voice .comment_2 {
+    position: relative;
+    margin: 0px 53px 0px 0px; }
+  .voice .comment_3 {
+    position: relative; }
+  .voice .comment1 {
+    width: 245px;
+    height: 287px;
+    background: #fff;
+    text-align: center;
+    opacity: 0.85;
+    color: #434343;
+    border-radius: 9px 9px 9px 9px;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 1.5px; }
+    .voice .comment1 .comment_title {
+      padding: 58px 0px 20px 0px; }
+  .voice .comment2 {
+    width: 245px;
+    height: 287px;
+    background: #fff;
+    text-align: center;
+    opacity: 0.85;
+    color: #434343;
+    border-radius: 9px 9px 9px 9px;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 1.5px; }
+    .voice .comment2 .comment_title {
+      padding: 58px 0px 20px 0px; }
+  .voice .comment3 {
+    width: 245px;
+    height: 287px;
+    background: #fff;
+    text-align: center;
+    opacity: 0.85;
+    color: #434343;
+    border-radius: 9px 9px 9px 9px;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 1.5px; }
+    .voice .comment3 .comment_title {
+      padding: 58px 0px 20px 0px; }
+  .voice .icon {
+    position: absolute;
+    top: -60px;
+    left: 70px; }
+
+.instructor {
+  height: 955px;
+  width: 1920px; }
+  .instructor .title {
+    color: #434343;
+    font-size: 30px;
+    text-align: center; }
+  .instructor .subtitle {
+    color: #434343;
+    font-size: 16px;
+    text-align: center; }
+  .instructor .instructor_title {
+    padding: 80px 0px 50px 0px; }
+  .instructor .goto_a {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .instructor .yasui_a {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .instructor .goto {
+    display: flex; }
+  .instructor .yasui {
+    display: flex; }
+  .instructor .goto_text {
+    width: 300px;
+    height: 252px;
+    background: #F6F6F6;
+    text-align: center; }
+  .instructor .yasui_text {
+    width: 300px;
+    height: 252px;
+    background: #F6F6F6;
+    text-align: center; }
+
+.access {
+  width: 1930px;
+  padding: 180px 0 400px 0;
+  background-image: url(../img/accses.jpg);
+  color: white;
+  text-align: center; }
+  .access .title {
+    color: #fff;
+    font-size: 30px;
+    text-align: center; }
+  .access .subtitle {
+    color: #fff;
+    font-size: 16px;
+    text-align: center; }
+  .access .access_title {
+    padding: 80px 0px 0px 0px; }
+
+.request .title {
+  color: #434343;
+  font-size: 30px;
+  text-align: center; }
+
+.request .subtitle {
+  color: #434343;
+  font-size: 16px;
+  text-align: center; }
+
+.request .form_name {
+  margin-top: 35px; }
+
+.request .form_1 input {
+  width: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+  border-radius: 10px 10px 10px 10px; }
+
+.request .form_2 input {
+  width: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+  border-radius: 10px 10px 10px 10px; }
+
+.request .form_name input {
+  width: 583px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+  border-radius: 10px 10px 10px 10px; }
+
+.request .form_mail input {
+  width: 583px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+  border-radius: 10px 10px 10px 10px; }
+
+.request .form_content textarea {
+  width: 583px;
+  height: 155px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+  border-radius: 10px 10px 10px 10px; }
+
+.request .contact-submit {
+  width: 350px;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  background: #B01D34;
+  border-radius: 60px 60px 60px 60px;
+  color: #fff; }
+
+.request .request_title {
+  padding: 80px 0px 0px 0px; }
+
+.request .form_title {
+  padding: 100px 0px 70px 0px; }

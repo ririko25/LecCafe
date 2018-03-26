@@ -24,23 +24,23 @@ body {
     
     }
 
-  .title{
-    color: #434343;
-    font-size: 30px;
-    text-align: center;
-  }
+//   .title{
+//     color: #434343;
+//     font-size: 30px;
+//     text-align: center;
+//   }
 
-  .subtitle{
-      color:#434343;
-      font-size:16px;
-      text-align: center;
-  }
+//   .subtitle{
+//       color:#434343;
+//       font-size:16px;
+//       text-align: center;
+//   }
   
-  .text{
-    color:#434343;
-    font-size:15px;
-    text-align: center;
-  }
+//   .text{
+//     color:#434343;
+//     font-size:15px;
+//     text-align: center;
+//   }
 
   .header {
     color: #fff;
@@ -56,7 +56,6 @@ body {
   }
   
   ul {
-    display: -webkit-flex;
     display: flex;
     -webkit-justify-content: space-around;
     justify-content: space-around;
@@ -130,36 +129,15 @@ height: 1429px;
 
 }
 
-.history{
-    height: 1014ox;
-    width: 1920px;
 
-}
 
-.voice{
-    width: 1930px;
-  
-    background-image: url(../img/voice_bg.jpg);
-    background-size: contain;
-    color: white;
-    text-align: center;
-}
+
 
 .instructor{
     height: 955px;
     width: 1920px;
 }
 
-.access{
-   
-    width: 1930px;
-    padding: 180px 0 400px 0;
-    background-image: url(../img/accses.jpg);
-    background-size: contain;
-    color: white;
-    text-align: center;
-
-}
 
 .request{
     height: 1097px;
@@ -201,6 +179,38 @@ width:1952px;
     background-size: cover;
     color: white;
     text-align: center;
+
+
+    .title{
+        color: #434343;
+        font-size: 30px;
+        text-align: center;
+      }
+    
+      .subtitle{
+          color:#434343;
+          font-size:16px;
+          text-align: center;
+      }
+
+
+    
+      .history_title{
+        padding: 80px 0px 50px 0px; 
+        }
+
+
+        .text{
+            color:#434343;
+            font-size:15px;
+            text-align: center;
+          }
+
+          .hello_title_text{
+            padding: 41px 0px 68px 0px; 
+        }
+        
+
 
     .hello_welcome_section{
         display: inline-block;
@@ -253,4 +263,377 @@ width:1952px;
         font-size:24px; 
         color:#594441;
     }
+}
+
+
+
+
+
+
+//HISTORY
+
+.history{
+    height: 1014px;
+    width: 1920px;
+    background-color: #F6F6F6;
+
+
+.section{
+    width:300px;
+    height:230px;
+    background: #fff;
+    text-align: center;
+    margin: 0px 38px 60px 0px; 
+    
+    }
+
+.button_center{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+//全てのボタンに上のcss適用する
+
+}
+
+.history_section1{
+  display: flex;    
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.history_section2{
+    display: flex;       
+    justify-content: center;
+    align-items: center;
+      
+  }
+
+.title{
+    color: #434343;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .subtitle{
+      color:#434343;
+      font-size:16px;
+      text-align: center;
+  }
+
+  .history_title{
+    padding: 80px 0px 50px 0px; 
+    }
+
+
+
+
+
+// VOICE
+
+
+.voice{
+    width: 1930px;
+    height:871px;
+    background-image: url(../img/voice_bg.jpg);
+    background-size: contain;
+    color: white;
+    text-align: center;
+    
+    
+    .title{
+        color: #ffffff;
+        font-size: 30px;
+        text-align: center;
+      }
+
+
+    
+      .subtitle{
+          color:#fff;
+          font-size:16px;
+          text-align: center;
+      }
+
+      .text{
+        color:#fff;
+        font-size:15px;
+        text-align: center;
+      }
+
+
+      .voice_title{
+        padding: 80px 0px 50px 0px; 
+        }
+
+        .voice_title_text{
+            padding: 41px 0px 68px 0px; 
+        }
+
+.comment{
+    display: flex;          
+    justify-content: center;
+    align-items: center;
+}
+
+.comment_1{
+    position: relative;
+    margin: 0px 53px 0px 0px; 
+}
+
+.comment_2{
+    position: relative;
+    margin: 0px 53px 0px 0px; 
+}
+
+.comment_3{
+    position: relative;
+}
+
+@mixin comment{
+
+width:245px;
+height:287px;
+background: #fff;
+text-align: center;
+opacity: 0.85;
+color:#434343;
+border-radius :9px 9px 9px 9px;
+font-size: 14px;
+line-height:2;
+letter-spacing:1.5px;
+.comment_title{
+    padding: 58px 0px 20px 0px; 
+}
+
+}
+
+        .comment1{
+            @include comment;
+        }
+
+        .comment2{
+            @include comment;
+        }
+
+        .comment3{
+            @include comment;
+        }
+
+        .icon{
+            position: absolute;
+            top: -60px;
+            left: 70px;
+        }
+}
+
+
+
+// INSTRUCTOR
+
+.instructor{
+    height: 955px;
+    width: 1920px;
+    
+
+
+    .title{
+        color: #434343;
+        font-size: 30px;
+        text-align: center;
+      }
+    
+      .subtitle{
+          color:#434343;
+          font-size:16px;
+          text-align: center;
+      }
+
+      .instructor_title{
+        padding: 80px 0px 50px 0px; 
+        }
+
+        .goto_a{
+            display: flex;          
+            justify-content: center;
+            align-items: center;
+        }
+
+        .yasui_a{
+            display: flex;          
+            justify-content: center;
+            align-items: center;
+        }
+      
+      .goto{
+            display: flex;     
+           
+        }
+      .yasui{
+        display: flex;     
+   
+        }
+
+        .goto_text{
+            width:300px;
+            height:252px;
+            background: #F6F6F6;
+            text-align: center;
+        }
+
+        .yasui_text{
+            width:300px;
+            height:252px;
+            background:#F6F6F6;
+            text-align: center;
+        }
+    
+}
+
+
+// ACCESS
+
+.access{
+   
+    width: 1930px;
+    padding: 180px 0 400px 0;
+    background-image: url(../img/accses.jpg);
+    color: white;
+    text-align: center;
+
+    .title{
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+      }
+    
+      .subtitle{
+          color:#fff;
+          font-size:16px;
+          text-align: center;
+      }
+      
+
+  .access_title{
+    padding: 80px 0px 0px 0px; 
+    }
+
+    .map{
+    
+    }
+
+}
+
+
+
+// REQUEST
+
+.request{
+
+    .title{
+        color: #434343;
+        font-size: 30px;
+        text-align: center;
+      }
+    
+      .subtitle{
+          color:#434343;
+          font-size:16px;
+          text-align: center;
+      }
+    
+.form_name{
+    margin-top: 35px;
+}
+
+
+
+.form_1 {
+    input {
+        width: 20px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 20px;
+        font-size: 18px;
+        border: 1px solid #dee7ec;
+        border-radius :10px 10px 10px 10px;  
+      }
+}
+
+.form_2 {
+    input {
+        width: 20px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 20px;
+        font-size: 18px;
+        border: 1px solid #dee7ec;
+        border-radius :10px 10px 10px 10px;  
+      }
+}
+
+.form_name{
+    input {
+        width: 583px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 20px;
+        font-size: 18px;
+        border: 1px solid #dee7ec;
+        border-radius :10px 10px 10px 10px;  
+    }
+}
+
+  .form_mail{
+    input {
+        width: 583px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 20px;
+        font-size: 18px;
+        border: 1px solid #dee7ec;
+        border-radius :10px 10px 10px 10px;  
+      }
+}
+
+.form_content{
+    textarea {
+        width: 583px;
+        height:155px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 20px;
+        font-size: 18px;
+        border: 1px solid #dee7ec;
+        border-radius :10px 10px 10px 10px;
+    }
+}
+
+  .contact-submit{
+    width: 350px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    background: #B01D34;
+    border-radius :60px 60px 60px 60px;
+    color: #fff;
+  }
+
+  .request_title{
+    padding: 80px 0px 0px 0px; 
+  }
+  
+  .form_title {
+    padding: 100px 0px 70px 0px; 
+}
+
 }
