@@ -1,0 +1,40 @@
+.instructor .title {
+  color: #434343;
+  font-size: 30px;
+  text-align: center; }
+
+.instructor .subtitle {
+  color: #434343;
+  font-size: 16px;
+  text-align: center; }
+
+.instructor .instructor_title {
+  padding: 80px 0px 50px 0px; }
+
+.instructor .goto_a {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.instructor .yasui_a {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.instructor .goto {
+  display: flex; }
+
+.instructor .yasui {
+  display: flex; }
+
+.instructor .goto_text {
+  width: 300px;
+  height: 252px;
+  background: #F6F6F6;
+  text-align: center; }
+
+.instructor .yasui_text {
+  width: 300px;
+  height: 252px;
+  background: #F6F6F6;
+  text-align: center; }

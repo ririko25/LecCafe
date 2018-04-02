@@ -1,0 +1,62 @@
+// INSTRUCTOR
+
+
+
+
+.instructor{
+  
+    
+
+
+    .title{
+        color: #434343;
+        font-size: 30px;
+        text-align: center;
+      }
+    
+      .subtitle{
+          color:#434343;
+          font-size:16px;
+          text-align: center;
+      }
+
+      .instructor_title{
+        padding: 80px 0px 50px 0px; 
+        }
+
+        .goto_a{
+            display: flex;          
+            justify-content: center;
+            align-items: center;
+        }
+
+        .yasui_a{
+            display: flex;          
+            justify-content: center;
+            align-items: center;
+        }
+      
+      .goto{
+            display: flex;     
+           
+        }
+      .yasui{
+        display: flex;     
+   
+        }
+
+        .goto_text{
+            width:300px;
+            height:252px;
+            background: #F6F6F6;
+            text-align: center;
+        }
+
+        .yasui_text{
+            width:300px;
+            height:252px;
+            background:#F6F6F6;
+            text-align: center;
+        }
+    
+}

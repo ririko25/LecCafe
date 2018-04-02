@@ -1,0 +1,13 @@
+.top {
+  height: 924;
+  padding: 180px 0 400px 0;
+  background-image: url(../img/top_bg.jpg);
+  background-size: contain;
+  color: white;
+  text-align: center; }
+  .top .top_logo {
+    padding-top: 312px; }
+  .top .top_text {
+    padding-top: 53px;
+    line-height: 2;
+    letter-spacing: 7px; }

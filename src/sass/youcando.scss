@@ -1,0 +1,219 @@
+
+
+
+.youcando{
+    background-color: rgb(231, 231, 231);
+
+    .button{
+    position: relative;
+    display: inline-block;
+    padding: 0 15px;
+    width: 350px;
+    min-width: 115px;
+    height: 60px;
+    color: #F6F6F6;
+    line-height: 60px;      //全体ボタンここ変更
+    text-align: center;
+    background: #B01D34;
+    border-radius: 60px;
+    z-index: 0;
+    font-size: 20px;
+    }
+
+    .youcando_title{
+        padding-top:80px;
+        color:#594441;
+    }
+
+    .join_box{
+        width:980px;
+        height:440px;
+        background:#fff;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        margin-top:109px;
+        
+    
+    }
+
+    .join_box{
+        display: flex;
+        position: relative;
+       margin-bottom: 109px;
+    }
+
+
+
+    .join_subtitle{
+        font-size:25px;
+        color:#594441;
+        margin: 55px 0px 0px 80px; 
+    }
+
+    .join_text{
+        font-size:15px;
+        color:#594441;
+        margin: 30px 0px 83px 80px; 
+        line-height:2.5;
+    }
+
+    .join_list{
+        margin:55px 0px 0px 76px; 
+    }
+
+    .sub_box1{
+        width:431px;
+        height:90px;
+        background:#FAFAFA;
+        margin:0px 0px 10px 0px; 
+        display: flex;
+        line-height: 90px;  
+    }
+    .sub_box2{
+        width:431px;
+        height:90px;
+        background:#FAFAFA;
+        margin:0px 0px 10px 0px; 
+        display: flex;
+        line-height: 90px;  
+    }
+    .sub_box3{
+        width:431px;
+        height:90px;
+        background:#EDEDED;
+        display: flex;
+        line-height: 90px;  
+    }
+
+    .youcando_button{
+        margin:20px 100px 0px 0px; 
+    }
+
+
+
+
+    .month{
+        font-size:18px;
+    }
+    
+    .day{
+        font-size:28px;
+    }
+
+    .course{
+        font-size:18px;
+    }
+
+
+
+    .request_box{
+        width:980px;
+        height:440px;
+        background:#fff;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        position: relative;  
+    }
+
+
+
+    .join_title{
+        font-size:80px;
+        color:#594441;
+        position: absolute;
+        top:-100px;
+        left:81px;
+
+    }
+
+    .request_title{
+        font-size:80px;
+        color:#594441;
+        position: absolute;
+        top:-113px;
+        left:81px;    
+    }
+
+    .request_subtitle{
+        font-size:25px;
+        color:#594441;
+        margin: 55px 0px 0px 80px; 
+    }
+
+    .request_text{
+        font-size:15px;
+        color:#594441;
+        margin: 30px 0px 83px 80px; 
+        line-height:2.5;
+    }
+
+    .request_list{
+        margin:55px 0px 0px 76px; 
+    }
+
+    .request_box1{
+        width:431px;
+        height:90px;
+        background:#FAFAFA;
+        margin:0px 0px 10px 0px; 
+    }
+    .request_box2{
+        width:431px;
+        height:90px;
+        background:#FAFAFA;
+        margin:0px 0px 10px 0px; 
+    }
+    .request_box3{
+        width:431px;
+        height:90px;
+        background:#EDEDED;
+    }
+
+    .request_button{
+        margin:20px 100px 0px 0px; 
+    }
+    
+
+
+
+    .req_box1{
+        width:420px;
+        height:72px;
+        background:#FAFAFA;
+        margin:0px 0px 10px 0px; 
+        text-align: center;
+        line-height: 70px;  
+    }
+    .req_box2{
+        width:420px;
+        height:72px;
+        background:#FAFAFA;
+        margin:0px 0px 10px 0px; 
+        text-align: center;
+        line-height: 70px;  
+    }
+    .req_box3{
+        widows: 420px;
+        height:72px;
+        background:#FAFAFA;
+        text-align: center;
+        line-height: 70px;  
+    }
+   
+
+    .comment{
+        font-size:18px;
+        color:#594441;
+    }
+
+}
+
+

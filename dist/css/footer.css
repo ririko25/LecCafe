@@ -1,0 +1,16 @@
+.footer {
+  background-color: #817B7B;
+  height: 440px; }
+
+.footer_title {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  padding-top: 65px; }
+
+.chatbox_banner {
+  padding-top: 45px;
+  height: 150ox;
+  width: 380px;
+  max-width: 50%;
+  margin: 0 auto; }

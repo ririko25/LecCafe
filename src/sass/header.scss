@@ -1,0 +1,28 @@
+
+
+.header{
+
+
+  ul {
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+
+  .list li {
+    padding: 33px 20px;
+  }
+      
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+  }
+
+  .header-list {
+    float: right;
+    transition: all 0.5s;   
+    color:white; 
+  }
+
+}

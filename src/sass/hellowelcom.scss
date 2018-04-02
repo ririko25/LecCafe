@@ -1,0 +1,88 @@
+.hellowelcome{
+
+   
+    padding: 180px 0 400px 0;
+    background-image: url(../img/hello_bg.png);
+    background-size: cover;
+    
+
+
+    .title{
+        color: #434343;
+        font-size: 30px;
+        text-align: center;
+      }
+    
+      .subtitle{
+          color:#434343;
+          font-size:16px;
+          text-align: center;
+      }
+
+
+        .hellowelcome_text{
+            color:#434343;
+            font-size:15px;
+            text-align: center;
+          }
+
+          .hello_title_text{
+            padding: 41px 0px 68px 0px; 
+        }
+        
+
+
+    .hellowelcome_section{
+        display: inline-block;
+        padding-top: 40px;
+    }
+
+    .hellowelcome_section1{
+        display: -webkit-flex;
+        display: flex;
+
+       
+    }
+    .hellowelcome_section2{
+        display: -webkit-flex;
+        display: flex;
+       
+    }
+    
+}
+
+
+.point_box1{
+
+    padding-top: 45px;
+    height: 293px;
+    width: 980px;
+    margin: 0 auto;
+    background-color:#fff;
+}
+
+.point_01{
+
+    .point_01_subtitle{
+        font-size:24px;
+        color:#594441;
+    }
+}
+
+.point_02{
+    .point_02_subtitle{
+        font-size:24px;
+        color:#594441;
+    } 
+}
+
+.point_03{
+    .point_03_subtitle{
+        font-size:24px; 
+        color:#594441;
+    }
+}
+
+
+
+
