@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .header ul {
   display: flex;
   -webkit-justify-content: space-around;
@@ -17,8 +18,8 @@
   color: white; }
 
 .top {
-  height: 924;
-  padding: 180px 0 400px 0;
+  height: 924px;
+  width: 100%;
   background-image: url(../img/top_bg.jpg);
   background-size: contain;
   color: white;
@@ -31,7 +32,8 @@
     letter-spacing: 7px; }
 
 .youcando {
-  background-color: #e7e7e7; }
+  width: 100%;
+  background-image: url(../img/youcando.jpg); }
   .youcando .button {
     position: relative;
     display: inline-block;
@@ -77,21 +79,37 @@
   .youcando .sub_box1 {
     width: 431px;
     height: 90px;
+    color: #494949;
+    /*文字色*/
     background: #FAFAFA;
+    /*背景色*/
+    border-left: solid 4px #DF7266;
+    /*左線*/
     margin: 0px 0px 10px 0px;
     display: flex;
     line-height: 90px; }
   .youcando .sub_box2 {
     width: 431px;
     height: 90px;
+    color: #494949;
+    /*文字色*/
     background: #FAFAFA;
+    /*背景色*/
+    border-left: solid 4px #DF7266;
+    /*左線*/
     margin: 0px 0px 10px 0px;
     display: flex;
     line-height: 90px; }
   .youcando .sub_box3 {
     width: 431px;
     height: 90px;
+    color: #494949;
+    /*文字色*/
     background: #EDEDED;
+    /*背景色*/
+    border-left: solid 4px #5C5757;
+    /*左線*/
+    margin: 0px 0px 10px 0px;
     display: flex;
     line-height: 90px; }
   .youcando .youcando_button {
@@ -177,9 +195,13 @@
     color: #594441; }
 
 .hellowelcome {
-  padding: 180px 0 400px 0;
+  widows: 100%;
   background-image: url(../img/hello_bg.png);
   background-size: cover; }
+  .hellowelcome .line {
+    height: 7px;
+    width: 64px;
+    background-color: #B01D34; }
   .hellowelcome .title {
     color: #434343;
     font-size: 30px;
@@ -187,15 +209,17 @@
   .hellowelcome .subtitle {
     color: #434343;
     font-size: 16px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 50px; }
   .hellowelcome .hellowelcome_text {
     color: #434343;
     font-size: 15px;
-    text-align: center; }
+    text-align: center;
+    margin: 30px 0px 40px; }
   .hellowelcome .hello_title_text {
     padding: 41px 0px 68px 0px; }
   .hellowelcome .hellowelcome_section {
-    display: inline-block;
     padding-top: 40px; }
   .hellowelcome .hellowelcome_section1 {
     display: -webkit-flex;
@@ -203,13 +227,50 @@
   .hellowelcome .hellowelcome_section2 {
     display: -webkit-flex;
     display: flex; }
+  .hellowelcome .section {
+    text-align: center; }
+  .hellowelcome .text_1 {
+    margin-bottom: 60px; }
+  .hellowelcome .text_4 {
+    margin-bottom: 80px; }
+  .hellowelcome .section_1_img {
+    margin-bottom: 30px; }
+  .hellowelcome .section_2_img {
+    margin: 0px 90px 30px; }
+  .hellowelcome .section_3_img {
+    margin-bottom: 30px; }
+  .hellowelcome .section_4_img {
+    margin-bottom: 30px; }
+  .hellowelcome .section_5_img {
+    margin: 0px 90px 30px; }
+  .hellowelcome .section_6_img {
+    margin-bottom: 30px; }
 
 .point_box1 {
   padding-top: 45px;
   height: 293px;
   width: 980px;
   margin: 0 auto;
-  background-color: #fff; }
+  background-color: #fff;
+  display: flex;
+  margin-bottom: 30px; }
+
+.point_box2 {
+  padding-top: 45px;
+  height: 293px;
+  width: 980px;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  margin-bottom: 30px; }
+
+.point_box3 {
+  padding-top: 45px;
+  height: 293px;
+  width: 980px;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex; }
 
 .point_01 .point_01_subtitle {
   font-size: 24px;
@@ -224,7 +285,8 @@
   color: #594441; }
 
 .history {
-  background-color: #F6F6F6; }
+  width: 100%;
+  background-image: url(../img/history.png); }
   .history .history_title {
     padding: 80px 0px 50px 0px; }
   .history .section {
@@ -233,6 +295,22 @@
     background: #fff;
     text-align: center;
     margin: 0px 38px 60px 0px; }
+  .history .button {
+    position: relative;
+    display: inline-block;
+    padding: 0 15px;
+    width: 350px;
+    min-width: 115px;
+    height: 60px;
+    color: #F6F6F6;
+    line-height: 60px;
+    text-align: center;
+    background: #B01D34;
+    border-radius: 60px;
+    z-index: 0;
+    font-size: 20px;
+    margin-bottom: 128px;
+    margin-top: 60px; }
   .history .button_center {
     display: flex;
     justify-content: center;
@@ -270,12 +348,15 @@
 .subtitle {
   color: #434343;
   font-size: 16px;
-  text-align: center; }
+  text-align: center;
+  margin-top: 26px;
+  margin-bottom: 50px; }
 
 .history_title {
   padding: 80px 0px 50px 0px; }
 
 .voice {
+  widows: 100%;
   background-image: url(../img/voice_bg.jpg);
   background-size: contain;
   color: white;
@@ -287,7 +368,9 @@
   .voice .subtitle {
     color: #fff;
     font-size: 16px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 50px; }
   .voice .text {
     color: #fff;
     font-size: 15px;
@@ -318,7 +401,8 @@
     border-radius: 9px 9px 9px 9px;
     font-size: 14px;
     line-height: 2;
-    letter-spacing: 1.5px; }
+    letter-spacing: 1.5px;
+    margin-bottom: 186px; }
     .voice .comment1 .comment_title {
       padding: 58px 0px 20px 0px; }
   .voice .comment2 {
@@ -331,7 +415,8 @@
     border-radius: 9px 9px 9px 9px;
     font-size: 14px;
     line-height: 2;
-    letter-spacing: 1.5px; }
+    letter-spacing: 1.5px;
+    margin-bottom: 186px; }
     .voice .comment2 .comment_title {
       padding: 58px 0px 20px 0px; }
   .voice .comment3 {
@@ -344,7 +429,8 @@
     border-radius: 9px 9px 9px 9px;
     font-size: 14px;
     line-height: 2;
-    letter-spacing: 1.5px; }
+    letter-spacing: 1.5px;
+    margin-bottom: 186px; }
     .voice .comment3 .comment_title {
       padding: 58px 0px 20px 0px; }
   .voice .icon {
@@ -352,50 +438,70 @@
     top: -60px;
     left: 70px; }
 
-.instructor .title {
-  color: #434343;
-  font-size: 30px;
-  text-align: center; }
-
-.instructor .subtitle {
-  color: #434343;
-  font-size: 16px;
-  text-align: center; }
-
-.instructor .instructor_title {
-  padding: 80px 0px 50px 0px; }
-
-.instructor .goto_a {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.instructor .yasui_a {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.instructor .goto {
-  display: flex; }
-
-.instructor .yasui {
-  display: flex; }
-
-.instructor .goto_text {
-  width: 300px;
-  height: 252px;
-  background: #F6F6F6;
-  text-align: center; }
-
-.instructor .yasui_text {
-  width: 300px;
-  height: 252px;
-  background: #F6F6F6;
-  text-align: center; }
+.instructor {
+  width: 100%;
+  background-image: url(../img/instructor.png); }
+  .instructor .title {
+    color: #434343;
+    font-size: 30px;
+    text-align: center; }
+  .instructor .subtitle {
+    color: #434343;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 50px; }
+  .instructor .instructor_title {
+    padding: 80px 0px 50px 0px; }
+  .instructor .goto_a {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .instructor .yasui_a {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .instructor .goto {
+    display: flex;
+    margin-bottom: 30px; }
+  .instructor .yasui {
+    display: flex;
+    margin-bottom: 176px; }
+  .instructor .goto_text {
+    width: 300px;
+    height: 233px;
+    background: #F6F6F6;
+    text-align: center;
+    position: relative; }
+  .instructor .yasui_text {
+    width: 300px;
+    height: 233px;
+    background: #F6F6F6;
+    text-align: center;
+    position: relative; }
+  .instructor .name_box {
+    width: 10px;
+    height: 4px;
+    background: #B01D34; }
+  .instructor .goto_name {
+    font-size: 18px; }
+  .instructor .goto_name_r {
+    font-size: 12px; }
+  .instructor .goto_text {
+    font-size: 14px;
+    line-height: 2; }
+  .instructor .yasui_name {
+    font-size: 18px; }
+  .instructor .yasui_name_r {
+    font-size: 12px; }
+  .instructor .yasui_text {
+    font-size: 14px;
+    line-height: 2; }
 
 .access {
-  padding: 180px 0 400px 0;
+  width: 100%;
   background-image: url(../img/accses.jpg);
+  background-size: contain;
   color: white;
   text-align: center; }
   .access .title {
@@ -405,23 +511,19 @@
   .access .subtitle {
     color: #fff;
     font-size: 16px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 50px; }
   .access .access_title {
     padding: 80px 0px 0px 0px; }
-  .access .ggmap {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden; }
-  .access .ggmap iframe,
-  .access .ggmap object,
-  .access .ggmap embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
+  .access .access_text {
+    width: 260px;
+    height: 390px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #313131;
+    font-size: 12px; }
+  .access .access_box {
+    display: flex; }
   .access .button {
     position: relative;
     display: inline-block;
@@ -435,7 +537,9 @@
     background: #B01D34;
     border-radius: 60px;
     z-index: 0;
-    font-size: 20px; }
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 140px; }
 
 .request {
   text-align: center; }
@@ -448,7 +552,9 @@
 .request .subtitle {
   color: #434343;
   font-size: 16px;
-  text-align: center; }
+  text-align: center;
+  margin-top: 26px;
+  margin-bottom: 50px; }
 
 .request .form_name {
   margin-top: 35px; }
@@ -515,6 +621,10 @@
 
 .request .form_title {
   padding: 100px 0px 70px 0px; }
+
+.request .button1 {
+  margin-bottom: 100px;
+  margin-top: 62px; }
 
 .footer {
   background-color: #817B7B;

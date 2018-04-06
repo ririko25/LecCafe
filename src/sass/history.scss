@@ -3,7 +3,8 @@
 
 .history{
  
-    background-color: #F6F6F6;
+    width: 100%;
+    background-image: url(../img/history.png);
 
 
     .history_title{
@@ -19,7 +20,23 @@
     margin: 0px 38px 60px 0px; 
     
     }
-
+    .button{
+        position: relative;
+        display: inline-block;
+        padding: 0 15px;
+        width: 350px;
+        min-width: 115px;
+        height: 60px;
+        color: #F6F6F6;
+        line-height: 60px;      //全体ボタンここ変更
+        text-align: center;
+        background: #B01D34;
+        border-radius: 60px;
+        z-index: 0;
+        font-size: 20px;
+        margin-bottom: 128px; 
+        margin-top: 60px; 
+    }
 .button_center{
     display: flex;    
     justify-content: center;
@@ -73,6 +90,8 @@
       color:#434343;
       font-size:16px;
       text-align: center;
+      margin-top:26px; 
+      margin-bottom:50px;  
   }
 
   .history_title{

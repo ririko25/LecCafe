@@ -1,6 +1,6 @@
 .top {
-  height: 924;
-  padding: 180px 0 400px 0;
+  height: 924px;
+  width: 100%;
   background-image: url(../img/top_bg.jpg);
   background-size: contain;
   color: white;

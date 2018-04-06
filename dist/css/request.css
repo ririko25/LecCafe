@@ -9,7 +9,9 @@
 .request .subtitle {
   color: #434343;
   font-size: 16px;
-  text-align: center; }
+  text-align: center;
+  margin-top: 26px;
+  margin-bottom: 50px; }
 
 .request .form_name {
   margin-top: 35px; }
@@ -76,3 +78,7 @@
 
 .request .form_title {
   padding: 100px 0px 70px 0px; }
+
+.request .button1 {
+  margin-bottom: 100px;
+  margin-top: 62px; }

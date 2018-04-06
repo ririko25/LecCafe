@@ -3,8 +3,9 @@
 .access{
    
 
-    padding: 180px 0 400px 0;
+    width: 100%;
     background-image: url(../img/accses.jpg);
+    background-size: contain;
     color: white;
     text-align: center;
 
@@ -18,6 +19,9 @@
           color:#fff;
           font-size:16px;
           text-align: center;
+          margin-top:26px; 
+          margin-bottom:50px;  
+          
       }
       
 
@@ -27,23 +31,18 @@
 
         //googlemap埋め込み
     
-        .ggmap {
-            position: relative;
-            padding-bottom: 56.25%;
-            padding-top: 30px;
-            height: 0;
-            overflow: hidden;
-            }
-             
-            .ggmap iframe,
-            .ggmap object,
-            .ggmap embed {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            }
+        .access_text{
+            width:260px;
+            height:390px;
+            background-color:rgba(255, 255, 255,0.8);
+            color:rgb(49, 49, 49);
+            font-size: 12px;
+
+        } 
+
+        .access_box{
+            display: flex;
+        }
 
             .button{
                 position: relative;
@@ -59,6 +58,10 @@
                 border-radius: 60px;
                 z-index: 0;
                 font-size: 20px;
+                margin-top:80px; 
+                margin-bottom:140px;  
             }
+
+    
     }
 

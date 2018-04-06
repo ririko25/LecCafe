@@ -2,7 +2,7 @@
 
 
 .voice{
-  
+  widows:100%;
     background-image: url(../img/voice_bg.jpg);
     background-size: contain;
     color: white;
@@ -21,6 +21,8 @@
           color:#fff;
           font-size:16px;
           text-align: center;
+          margin-top:26px; 
+          margin-bottom:50px;  
       }
 
       .text{
@@ -70,6 +72,7 @@ border-radius :9px 9px 9px 9px;
 font-size: 14px;
 line-height:2;
 letter-spacing:1.5px;
+margin-bottom:186px;
 .comment_title{
     padding: 58px 0px 20px 0px; 
 }

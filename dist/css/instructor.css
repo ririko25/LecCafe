@@ -1,40 +1,59 @@
-.instructor .title {
-  color: #434343;
-  font-size: 30px;
-  text-align: center; }
-
-.instructor .subtitle {
-  color: #434343;
-  font-size: 16px;
-  text-align: center; }
-
-.instructor .instructor_title {
-  padding: 80px 0px 50px 0px; }
-
-.instructor .goto_a {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.instructor .yasui_a {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.instructor .goto {
-  display: flex; }
-
-.instructor .yasui {
-  display: flex; }
-
-.instructor .goto_text {
-  width: 300px;
-  height: 252px;
-  background: #F6F6F6;
-  text-align: center; }
-
-.instructor .yasui_text {
-  width: 300px;
-  height: 252px;
-  background: #F6F6F6;
-  text-align: center; }
+.instructor {
+  width: 100%;
+  background-image: url(../img/instructor.png); }
+  .instructor .title {
+    color: #434343;
+    font-size: 30px;
+    text-align: center; }
+  .instructor .subtitle {
+    color: #434343;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 50px; }
+  .instructor .instructor_title {
+    padding: 80px 0px 50px 0px; }
+  .instructor .goto_a {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .instructor .yasui_a {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .instructor .goto {
+    display: flex;
+    margin-bottom: 30px; }
+  .instructor .yasui {
+    display: flex;
+    margin-bottom: 176px; }
+  .instructor .goto_text {
+    width: 300px;
+    height: 233px;
+    background: #F6F6F6;
+    text-align: center;
+    position: relative; }
+  .instructor .yasui_text {
+    width: 300px;
+    height: 233px;
+    background: #F6F6F6;
+    text-align: center;
+    position: relative; }
+  .instructor .name_box {
+    width: 10px;
+    height: 4px;
+    background: #B01D34; }
+  .instructor .goto_name {
+    font-size: 18px; }
+  .instructor .goto_name_r {
+    font-size: 12px; }
+  .instructor .goto_text {
+    font-size: 14px;
+    line-height: 2; }
+  .instructor .yasui_name {
+    font-size: 18px; }
+  .instructor .yasui_name_r {
+    font-size: 12px; }
+  .instructor .yasui_text {
+    font-size: 14px;
+    line-height: 2; }

@@ -1,5 +1,7 @@
+@charset "UTF-8";
 .youcando {
-  background-color: #e7e7e7; }
+  width: 100%;
+  background-image: url(../img/youcando.jpg); }
   .youcando .button {
     position: relative;
     display: inline-block;
@@ -45,21 +47,37 @@
   .youcando .sub_box1 {
     width: 431px;
     height: 90px;
+    color: #494949;
+    /*文字色*/
     background: #FAFAFA;
+    /*背景色*/
+    border-left: solid 4px #DF7266;
+    /*左線*/
     margin: 0px 0px 10px 0px;
     display: flex;
     line-height: 90px; }
   .youcando .sub_box2 {
     width: 431px;
     height: 90px;
+    color: #494949;
+    /*文字色*/
     background: #FAFAFA;
+    /*背景色*/
+    border-left: solid 4px #DF7266;
+    /*左線*/
     margin: 0px 0px 10px 0px;
     display: flex;
     line-height: 90px; }
   .youcando .sub_box3 {
     width: 431px;
     height: 90px;
+    color: #494949;
+    /*文字色*/
     background: #EDEDED;
+    /*背景色*/
+    border-left: solid 4px #5C5757;
+    /*左線*/
+    margin: 0px 0px 10px 0px;
     display: flex;
     line-height: 90px; }
   .youcando .youcando_button {

@@ -1,6 +1,7 @@
 .access {
-  padding: 180px 0 400px 0;
+  width: 100%;
   background-image: url(../img/accses.jpg);
+  background-size: contain;
   color: white;
   text-align: center; }
   .access .title {
@@ -10,23 +11,19 @@
   .access .subtitle {
     color: #fff;
     font-size: 16px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 50px; }
   .access .access_title {
     padding: 80px 0px 0px 0px; }
-  .access .ggmap {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden; }
-  .access .ggmap iframe,
-  .access .ggmap object,
-  .access .ggmap embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
+  .access .access_text {
+    width: 260px;
+    height: 390px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #313131;
+    font-size: 12px; }
+  .access .access_box {
+    display: flex; }
   .access .button {
     position: relative;
     display: inline-block;
@@ -40,4 +37,6 @@
     background: #B01D34;
     border-radius: 60px;
     z-index: 0;
-    font-size: 20px; }
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 140px; }

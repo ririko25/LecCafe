@@ -1,22 +1,30 @@
 .hellowelcome{
 
    
-    padding: 180px 0 400px 0;
+    widows:100%;
     background-image: url(../img/hello_bg.png);
     background-size: cover;
-    
 
+    
+    .line{
+        height: 7px;
+        width: 64px;
+        background-color:#B01D34;
+    }
 
     .title{
         color: #434343;
         font-size: 30px;
         text-align: center;
+       
       }
     
       .subtitle{
           color:#434343;
           font-size:16px;
           text-align: center;
+          margin-top:26px; 
+          margin-bottom:50px;  
       }
 
 
@@ -24,6 +32,7 @@
             color:#434343;
             font-size:15px;
             text-align: center;
+            margin: 30px 0px 40px; 
           }
 
           .hello_title_text{
@@ -33,7 +42,7 @@
 
 
     .hellowelcome_section{
-        display: inline-block;
+        
         padding-top: 40px;
     }
 
@@ -49,7 +58,44 @@
        
     }
     
+    .section{
+         text-align: center;
+         
+    }
+
+
+    .text_1{
+        margin-bottom: 60px; 
+    }
+
+    .text_4{
+        margin-bottom: 80px; 
+    }
+
+    .section_1_img{
+        margin-bottom: 30px; 
+    }
+
+    .section_2_img{
+        margin:0px 90px 30px; 
+    }
+
+    .section_3_img{
+        margin-bottom: 30px; 
+    }
+    .section_4_img{
+        margin-bottom: 30px; 
+    }
+    .section_5_img{
+        margin:0px 90px 30px; 
+    }
+  .section_6_img{
+        margin-bottom: 30px; 
+    }
+    
 }
+
+
 
 
 .point_box1{
@@ -59,6 +105,29 @@
     width: 980px;
     margin: 0 auto;
     background-color:#fff;
+    display: flex;
+    margin-bottom:30px; 
+}
+
+.point_box2{
+
+    padding-top: 45px;
+    height: 293px;
+    width: 980px;
+    margin: 0 auto;
+    background-color:#fff;
+    display: flex;
+    margin-bottom:30px; 
+}
+
+.point_box3{
+
+    padding-top: 45px;
+    height: 293px;
+    width: 980px;
+    margin: 0 auto;
+    background-color:#fff;
+    display: flex;
 }
 
 .point_01{
